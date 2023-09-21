@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones de Radio</title>
+</head>
+<body>
+    
+    <h3>Botones de radio</h3>
+
+    <!--El valor radio: Nos permite crear un boton de radio, tambien llamado un botton de opcion-->
+    <!--La etiqueta label: Sirve para conseguir una mayor claridad y accesibilidad web.-->
+    <!--El atributo for: Sirve para conectar el label con el input (id)-->
+    <!--Ejemplo:-->
+    <p>Ingrese texto:</p>
+    <form action="/enviar-respuesta">
+
+        <!--Con label-->
+        <label for="interior">
+        <input type="radio" id="interior">Interior <!--No es necesario cerrar el texto, ya que la etiqueta se cierra sola-->
+        </label>
+
+        <!--Sin label-->
+        <input type="radio">Exterior <!--No es necesario cerrar el texto, ya que la etiqueta se cierra sola-->
+    </form>
+
+</body>
+</html>

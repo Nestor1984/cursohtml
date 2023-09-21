@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Grupo de botones de radio</h3> <!--Para marcar solo una opcion-->
+
+    <p>Para marcar solo una opcion</p>
+    <!--El valor radio: Nos permite crear un boton de radio, tambien llamado un botton de opcion-->
+    <!--La etiqueta label: Sirve para conseguir una mayor claridad y accesibilidad web.-->
+    <!--El atributo for: Sirve para conectar el label con el input-->
+    <!--El atributo name: (Sirve para marcar una sola opcion a la vez) Es un identificador (no necesariamente unico) para los elementos de formulario-->
+    <!--Ejemplo:-->
+    <p>Ingrese texto:</p>
+    <form action="/enviar-respuesta">
+
+        <!--Con label-->
+        <label for="interior">
+        <input type="radio" id="interior" name="interior-exterior">Interior <!--Todos los elemento input de tipo radio que tengan este mismo nombre (name) van a pertenecer al mismo grupo, asi que solo uno va poder estar marcado a la vez-->
+        </label>
+
+        <!--Con label-->
+        <label for="exterior">
+        <input type="radio" id="exterior" name="interior-exterior">Exterior <!--Todos los elemento input de tipo radio que tengan este mismo nombre (name) van a pertenecer al mismo grupo, asi que solo uno va poder estar marcado a la vez-->
+        </label>
+
+    </form>
+
+</body>
+</html>
